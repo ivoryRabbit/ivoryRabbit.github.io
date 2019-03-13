@@ -2,11 +2,12 @@
 layout: post
 title:  "Hello, surffers!"
 date:   2019-02-19 21:47:45 + 0000
-categories: Big Event
+categories: blog
 author: ivoryRabbit
 comments: true
+tags: ipsum
 ---
- 
+
 안녕하세요?  
 처음으로 깃허브를 이용하여 블로그를 만들었습니다.
  

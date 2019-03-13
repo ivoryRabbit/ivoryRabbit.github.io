@@ -2,7 +2,7 @@
 layout: post
 title:  "Hello, surffers!"
 date:   2019-02-19 21:47:45 + 0000
-categories: event
+categories: Event
 author: ivoryRabbit
 comments: true
 tags: blog
@@ -22,8 +22,9 @@ def print_hi(name):
   print('Hi, {}'.format(name))
 
 print_hi('Min Song')
-%'Hi, Min Song' to STDOUT.
 {% endhighlight %}
+
+{: }
 
 파이썬 실행 - [해시코드 사이트][python]
 

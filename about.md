@@ -1,13 +1,13 @@
 ---
 layout: page
-title: About
+title: About me
 permalink: /about/
 ---
 
 <img src="{{ site.baseurl }}/assets/profile.jpg" title="Profile Picture" class="profile">
 
 ### Department of
-- Mathematical Sciences at KAIST, Korea</li><br>
+- Mathematical Sciences at KAIST, Korea
 
 ### Work
 - Descrete Geometry

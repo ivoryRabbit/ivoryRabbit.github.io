@@ -2,7 +2,7 @@
 layout: post
 title:  "Hello, surffers!"
 date:   2019-02-19 21:47:45 + 0000
-categories: Daily
+categories: 일상
 author: ivoryRabbit
 comments: true
 tags: blog

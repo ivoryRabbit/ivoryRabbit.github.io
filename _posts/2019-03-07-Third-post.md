@@ -2,8 +2,9 @@
 layout: post
 title:  "Discrete Geometry"
 date:   2019-03-07 13:45:45 + 0000
-categories: Event
+categories: 수학
 comments: true
+tag: descrete geometry
 ---
 
 안녕하세요?

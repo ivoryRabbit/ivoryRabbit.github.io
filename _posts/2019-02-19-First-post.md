@@ -2,7 +2,7 @@
 layout: post
 title:  "Hello, surffers!"
 date:   2019-02-19 21:47:45 + 0000
-categories: Event
+categories: Daily
 author: ivoryRabbit
 comments: true
 tags: blog

@@ -47,9 +47,4 @@ $$
 
 * * *
 
-My github is located in [DongGyu’s #GitHub repo][ivoryRabbit-gh]. You can find some information about me at [math.kaist.com][KAIST-math].
-
-[ivoryRabbit-gh]: https://github.com/ivoryRabbit/
-[KAIST-math]: http://mathsci.kaist.ac.kr/home/
-
 {% if site.disqus-shortname %}{% include disqus.html %}{% endif %}

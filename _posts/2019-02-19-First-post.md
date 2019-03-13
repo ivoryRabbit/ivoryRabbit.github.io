@@ -2,10 +2,10 @@
 layout: post
 title:  "Hello, surffers!"
 date:   2019-02-19 21:47:45 + 0000
-categories: blog
+categories: event
 author: ivoryRabbit
 comments: true
-tags: ipsum
+tags: blog
 ---
 
 안녕하세요?  

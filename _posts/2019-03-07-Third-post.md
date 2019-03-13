@@ -25,7 +25,7 @@ Discrete Geometry는 많은 사람들, 특히 수학자들에게도 생소한 �
 
 결과적으로 (p,q)-problem의 중간단계인 'colorful Helly theorem'을 ['Radon number'][Radon]와 ['Stirling number of the second kind'][Stirling]를 이용하여 증명하는데 성공하였고, 다른 연구 결과들과 함께 (p,q)-theorem까지 도달할 수 있었습니다.
 
-### 전체 증명 과정 요약:
+### 증명 과정 요약
 
 $$
 \text{Radon's Lemma} \rightarrow \text{Colorful Hello theorem} \rightarrow \text{Fractional Helly theorem} \rightarrow \text{weak }\epsilon\text{-net theorem} \rightarrow \text{(p,q)-theorem}

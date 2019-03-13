@@ -24,7 +24,10 @@ def print_hi(name):
 print_hi('Min Song')
 {% endhighlight %}
 
-{: }
+~~~
+박스 테스트
+abc
+~~~
 
 파이썬 실행 - [해시코드 사이트][python]
 

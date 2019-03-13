@@ -14,7 +14,7 @@ subtitle: "기술 개발과 이론 연구 모두 다"
 email: tsi00008@gmail.com
 name: ivoryRabbit
 description: >
-  A simple yet classy theme for your Jekyll website or blog.
+  Powered by Github, Designed by centrarium with Jekyll.
 # Base URL of site (i.e. /blog). It should always start with a slash,
 # and never end with a slash. Set it to a blank value if hosting at the
 # root of your server.
@@ -72,14 +72,14 @@ descriptions:
 social:
   - name: Twitter
     icon: twitter
-    username: TheBenCentra
-    url: https://twitter.com/TheBenCentra
+    username: ivoryRabbit
+    url: 
     desc: Follow me on Twitter
     share: false
 
   - name: Facebook
     icon: facebook
-    username: thebencentra
+    username: ivoryRabbit
     url:
     desc: Friend me on Facebook
     share: false
@@ -124,7 +124,7 @@ social:
     username:
     url:
     desc: Follow me on Pinterest
-    share: true
+    share: false
 
   - name: SoundCloud
     icon: soundcloud
@@ -173,7 +173,7 @@ social:
     username:
     url:
     desc: Share to Reddit
-    share: true
+    share: false
 
   - name: "Hacker News"
     icon: hacker-news
@@ -185,14 +185,14 @@ social:
 # Social sharing protocols
 # These are for automatically generating sharing metadata for FB and Twitter
 # OS Protocol is for sharing the source of your site, if you're interested. For more, see osprotocol.com
-# protocols:
-#     fb_image: "/assets/bunny.png"
-#     fb_image_width: 612
-#     fb_image_height: 605
-#     fb_image_type: "image/png"
+protocols:
+    fb_image: "/assets/bunny.png"
+    fb_image_width: 612
+    fb_image_height: 605
+    fb_image_type: "image/png"
 
-#     twitter_image: "/assets/logo.png"
+    twitter_image: "/assets/logo.png"
 
-#     os_repo: "https://github.com/bencentra/centrarium.com"
-#     os_rcs_type: "git"
-#     os_src: "git@github.com:bencentra/centrarium.com.git"
+    os_repo: "https://github.com/bencentra/centrarium.com"
+    os_rcs_type: "git"
+    os_src: "git@github.com:bencentra/centrarium.com.git"

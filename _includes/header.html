@@ -19,5 +19,16 @@
         {% endfor %}
       </ul>
     </nav>
+		<nav>
+  		{% for item in site.navigation %}
+      	{% assign class = nil %}
+      	{% if page.url contains item.url %}
+          {% assign class = 'active' %}
+      	{% endif %}
+      	<a href="{{ item.url }}" class="{{ class }}">
+          {{ item.title }}
+      	</a>
+  		{% endfor %}
+		</nav>
   </div>
 </header>

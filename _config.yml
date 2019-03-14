@@ -53,15 +53,6 @@ descriptions:
 
   - cat: dummy
     desc: "Just some placeholder posts, lorem ipsum and the rest."
-# navigations
-navigation:
-  - title: blog
-    url: /blog/
-  - title: about
-    url: /about/
-  - title: projects
-    url: /projects/
-
 
 # Social icons and sharing options
 #

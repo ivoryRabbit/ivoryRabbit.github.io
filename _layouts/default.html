@@ -4,8 +4,10 @@
   {% include head.html %}
 
   <body>
-
-    {% include header.html %}
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <div class="header" style="display:none">
+			{% include header.html %}
+		</div>
 
     <div class="page-content">
         {{ content }}

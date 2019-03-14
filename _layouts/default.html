@@ -4,24 +4,14 @@
   {% include head.html %}
 
   <body>
-		<div class="row">
-    	<div class="col s12 m3">
-      	<div class="table cover">
-        	{% include sidebar.html %}
-      	</div>
-    	</div>
-    	<div class="col s12 m9">
-			
-      	{% include header.html %}
-			
-				<div class="post-content">
-        	{{ content }}
-      	</div>
-			
-				{% include footer.html %}
-			
-    	</div>
-  	</div>
+
+    {% include header.html %}
+
+    <div class="page-content">
+        {{ content }}
+    </div>
+
+    {% include footer.html %}
 
   </body>
 

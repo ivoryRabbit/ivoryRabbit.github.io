@@ -121,7 +121,7 @@ pre code.hljs {
   .navigation-wrapper {
   	@include outer-container;
     @include clearfix;
-    position: fixed;
+    position: relative;
   }
   .logo {
     float: left;

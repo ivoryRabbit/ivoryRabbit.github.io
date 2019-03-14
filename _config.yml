@@ -79,7 +79,7 @@ social:
 
   - name: Facebook
     icon: facebook
-    username: 이동규
+    username: Facebook
     url: https://www.facebook.com/
     desc: Friend me on Facebook
     share: true

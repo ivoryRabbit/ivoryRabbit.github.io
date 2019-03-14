@@ -79,10 +79,10 @@ social:
 
   - name: Facebook
     icon: facebook
-    username: ivoryRabbit
-    url:
+    username: 이동규
+    url: https://www.facebook.com/
     desc: Friend me on Facebook
-    share: false
+    share: true
 
   - name: GitHub
     icon: github

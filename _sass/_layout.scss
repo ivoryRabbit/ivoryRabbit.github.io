@@ -78,7 +78,6 @@ pre code.hljs {
 		text-shadow: 0 2px 1px rgba(0,0,0,0.67) !important;
 		background-position: 50% 50%;
 		background-size: cover;
-		margin-top: 60px;
 		.title {
 			font-size: modular-scale(6);
 		}
@@ -108,6 +107,7 @@ pre code.hljs {
 	position: fixed;
 	top: 0;
 	width: 100%;
+	background-color: $white;
 	/*
 	*	Navigation Menu - http://refills.bourbon.io/unstyled/ (see "Navigation")
 	*/

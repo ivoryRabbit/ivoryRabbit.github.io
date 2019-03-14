@@ -9,10 +9,10 @@ permalink: /about/
 ### Department of
 - Mathematical Sciences at KAIST, Korea
 
-### Work
+### Interested in
 - Descrete Geometry
 - Data Analysis
-- Rock Vocalist
+- Vocal
 
 ### Research & Experience
 - Radon Numbers and the Fractional Helly Theorem(2019++)

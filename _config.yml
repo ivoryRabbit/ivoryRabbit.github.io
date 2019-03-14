@@ -27,7 +27,7 @@ logo: "/assets/bunny.png"
 markdown: kramdown
 paginate: 5
 paginate_path: "/page:num/"
-inter_post_navigation: false
+inter_post_navigation: true
 highlightjs_theme: "monokai-sublime"
 
 # Archive settings (see https://github.com/jekyll/jekyll-archives/)
@@ -185,14 +185,14 @@ social:
 # Social sharing protocols
 # These are for automatically generating sharing metadata for FB and Twitter
 # OS Protocol is for sharing the source of your site, if you're interested. For more, see osprotocol.com
-protocols:
-    fb_image: "/assets/bunny.png"
-    fb_image_width: 612
-    fb_image_height: 605
-    fb_image_type: "image/png"
+# protocols:
+#     fb_image: "/assets/bunny.png"
+#     fb_image_width: 612
+#     fb_image_height: 605
+#     fb_image_type: "image/png"
 
-    twitter_image: "/assets/bunny.png"
+#     twitter_image: "/assets/bunny.png"
 
-    os_repo: "https://github.com/bencentra/centrarium.com"
-    os_rcs_type: "git"
-    os_src: "git@github.com:bencentra/centrarium.com.git"
+#     os_repo: "https://github.com/bencentra/centrarium.com"
+#     os_rcs_type: "git"
+#     os_src: "git@github.com:bencentra/centrarium.com.git"

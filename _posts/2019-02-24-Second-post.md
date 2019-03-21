@@ -4,6 +4,7 @@ title:  "NIMS 산업수학 "
 date:   2019-02-24 15:38:45 + 0000
 categories: 개발
 comments: true
+author : ivoryRabbit
 tag: NIMS 
 ---
  

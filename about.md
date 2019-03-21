@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About me
+title: About
 permalink: /about/
 ---
 
@@ -17,4 +17,4 @@ permalink: /about/
 ### Research & Experience
 - Radon Numbers and the Fractional Helly Theorem(2019++)
 - Kaggle Data Analysis
-- Research about Median graph
+- Some graph theory problems

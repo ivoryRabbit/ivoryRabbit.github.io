@@ -19,7 +19,7 @@ tag: NIMS
  
 그런데 저의 conda 가상환경에는 Jupyter Lab이 실행되지 않더군요.
  
-<center><img src="https://github.com/ivoryRabbit/ivoryRabbit.github.io/blob/master/assets/20190224/%EC%82%AC%EC%A7%841.png?raw=true" width="900"></center>
+<center><img src="https://github.com/ivoryRabbit/ivoryRabbit.github.io/blob/master/assets/20190224/%EC%82%AC%EC%A7%841.png?raw=true" width="1080"></center>
 
 
 보다시피 계속해서 다음과 같은 메세지가 뜹니다:  
@@ -28,7 +28,7 @@ __'jupyter'은(는) 내부 또는 외부 명령, 실행할 수 있는 프로그�
 
 왜 안될까 뒤적거리다가 힌트를 찾아내었습니다. 
 
-<center><img src="https://github.com/ivoryRabbit/ivoryRabbit.github.io/blob/master/assets/20190224/%EC%82%AC%EC%A7%842.png?raw=true" width="900"></center>
+<center><img src="https://github.com/ivoryRabbit/ivoryRabbit.github.io/blob/master/assets/20190224/%EC%82%AC%EC%A7%842.png?raw=true" width="1080"></center>
 
 제가 사용하는 Directory는 다음과 같은데,  
 
@@ -44,18 +44,18 @@ C:\Users\이동규
 ```
 net user administrator /active:yes
 ```
-<center><img src="https://github.com/ivoryRabbit/ivoryRabbit.github.io/blob/master/assets/20190224/%EC%82%AC%EC%A7%843.png?raw=true" width="900"></center>
+<center><img src="https://github.com/ivoryRabbit/ivoryRabbit.github.io/blob/master/assets/20190224/%EC%82%AC%EC%A7%843.png?raw=true" width="1080"></center>
 
 2. 그러면 administrator 계정이 활성화되는데, window키+x를 눌러 로그아웃하면 administrator로 접속할 수 있습니다.  
 
 3. conda를 이용하여 가상환경을 설치한 후, Jupyter Lab을 실행시켜보면 앞의 오류가 사라집니다.
 
-<img src="https://github.com/ivoryRabbit/ivoryRabbit.github.io/blob/master/assets/20190224/%EC%82%AC%EC%A7%844.png?raw=true" width="900" >
-<img src="https://github.com/ivoryRabbit/ivoryRabbit.github.io/blob/master/assets/20190224/%EC%82%AC%EC%A7%845.png?raw=true" width="900" >
+<img src="https://github.com/ivoryRabbit/ivoryRabbit.github.io/blob/master/assets/20190224/%EC%82%AC%EC%A7%844.png?raw=true" width="1080" >
+<img src="https://github.com/ivoryRabbit/ivoryRabbit.github.io/blob/master/assets/20190224/%EC%82%AC%EC%A7%845.png?raw=true" width="1080" >
 
 4. Jupyter Lab에서 가상환경에 설치한 모듈들을 실행시켜보면, 잘 작동하는 것을 확인할 수 있습니다.
 
-<img src="https://github.com/ivoryRabbit/ivoryRabbit.github.io/blob/master/assets/20190224/%EC%82%AC%EC%A7%846.png?raw=true" width="900" >
+<img src="https://github.com/ivoryRabbit/ivoryRabbit.github.io/blob/master/assets/20190224/%EC%82%AC%EC%A7%846.png?raw=true" width="1080" >
 
 5. administrator를 비활성화시키고 싶다면 yes -> no로 바꾸어줍니다. 이렇게요.
 ```

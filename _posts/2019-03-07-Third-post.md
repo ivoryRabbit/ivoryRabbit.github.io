@@ -3,6 +3,7 @@ layout: post
 title:  "Discrete Geometry"
 date:   2019-03-07 13:45:45 + 0000
 categories: 수학
+author: ivoryRabbit
 comments: true
 tag: descrete geometry
 ---

@@ -1,0 +1,14 @@
+---
+layout: post
+title:  "논문에 관한 소식"
+date:   2019-03-24 17:33:59
+author: ivoryRabbit
+categories: 수학
+comments : true
+---
+
+제 첫 논문이 수학자 Gil Kalai의 [블로그](https://gilkalai.wordpress.com/2019/03/15/news-on-fractional-helly-colorful-helly-and-radon/)에 소개되었습니다. Gil Kalai는 조합론을 연구하는 이스라엘 수학자로, 양자 컴퓨터에 대한 회의론적인 연구로도 알려져 있습니다. Gil Kalai가 양자 컴퓨터를 싫어하는 것이 아니고, 많은 학자들이 양자 컴퓨터에 대한 긍정적인 기대만을 갖고 연구하는 것을 보며, 누군가는 양자 컴퓨터가 불가능하다면 왜 불가능한지 연구해야 한다고 생각해 연구를 시작했기 때문입니다. [링크](https://gilkalai.wordpress.com/2019/03/15/news-on-fractional-helly-colorful-helly-and-radon/)
+
+개인적으로 저널에 논문을 출판한 것보다 논문으로만 접해왔던 대수학자에게 언급된 것이 더 기쁩니다.
+
+{% if site.disqus-shortname %}{% include disqus.html %}{% endif %}

@@ -7,7 +7,7 @@ permalink: /about/
 <img src="{{ site.baseurl }}/assets/profile.jpg" title="Profile Picture" class="profile">
 
 ### Department of
-- Mathematical Sciences at KAIST, Korea
+- Mathematical Sciences
 
 ### Interested in
 - Descrete Geometry

@@ -16,5 +16,4 @@ permalink: /about/
 
 ### Research & Experience
 - Radon Numbers and the Fractional Helly Theorem(2019++)
-- Kaggle Data Analysis
-- Some graph theory problems
+- Data Analysis

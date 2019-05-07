@@ -8,67 +8,38 @@ tags:	jekyll welcome
 cover:  "/assets/instacode.png"
 ---
 
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+---
+layout: post
+title:  "신호 관련 데이터 분석"
+date:   2019-05-07 16:05:59
+author: ivoryRabbit
+categories: 연구
+comments : true
+---
 
-## Adding New Posts
+졸업 후 군대가기 전까지 기초과학연구소에서 데이터 분석 관련 일(일이라 적고 공부라 읽는다)을 하고 있습니다. 비파괴 실험을 통해 콘크리트 밑에 균열이 있는지 없는지 알아내는 것으로, 사람이 손으로 계산하던 알고리즘을 대신하여 딥러닝을 적용해보는 연구(연구라 적고 공부라 읽는다)입니다.
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+## 연구 개요
 
-### Tags and Categories
+우리의 첫번째 목표는 콘크리트 아래에 균일이 "있는지" '없는지"에 대한 classification입니다. 실험 데이터를 불러와 딥러닝에 적합한 포멧으로 바꾸어 준 후, 성능을 향상 시키고 데이터 불균형 문제를 해결하기 위한 전처리를 시행할 계획입니다. 데이터를 수집하는데 있어서 직접적인 참여가 불가능했기에, 가지고 있는 데이터로만 최상의 결과를 얻기 위해 노력하였습니다.
 
-If you list one or more categories or tags in the front matter of your post, they will be included with the post on the page as links. Clicking the link will bring you to an auto-generated archive page for the category or tag, created using the [jekyll-archive][jekyll-archive] gem.
+### 데이터
 
-### Cover Images
+데이터는 일종의 "수열" 형태입니다. 하나의 데이터가 무려 0.00001초나 되는 간격으로 10000개의 값을 갖고 있습니다. 센서가 0.1초를 만 번 쪼개어 신호를 수집한 것인데, 이를 그대로 사용한다면 우리는 막대한 차원 덩어리를 데리고 다녀야합니다. 이를 해결하려는 시도로 세 가지 방법을 사용해보았습니다.
 
-To add a cover image to your post, set the "cover" property in the front matter with the relative URL of the image (i.e. <code>cover: "/assets/cover_image.jpg"</code>).
+1. 연속되는 10개의 값을 평균내어 하나로 퉁칩니다. 즉, 길이가 10000인 수열의 길이를 1000으로 줄이는겁니다.
+2. PCA를 이용한 차원 축소법이 있습니다.
+3. Short-Time Fourier Transform을 이용한 후 역 푸리에 변환을 시도하였습니다. 슬라이딩 윈도우를 이용하여 구간마다 푸리에 변환을 이용해 주파수 영역을 구하고, 평균냄으로써 신호의 길이를 줄여줍니다. 참고로 사람이 직접 계산하던 알고리즘에 따르면, 가장 큰 주파수의 크기와 균열의 깊이가 반비례한다는 사전 정보가 있었습니다.
 
-### Code Snippets
+### 전처리
 
-You can use [highlight.js][highlight] to add syntax highlight code snippets:
+후에 다시 설명
 
-Use the [Liquid][liquid] `{% raw %}{% highlight <language> %}{% endraw %}` tag to add syntax highlighting to code snippets.
+### 모델
 
-For instance, this template...
-{% highlight html %}
-{% raw %}{% highlight javascript %}    
-function demo(string, times) {    
-  for (var i = 0; i < times; i++) {    
-    console.log(string);    
-  }    
-}    
-demo("hello, world!", 10);
-{% endhighlight %}{% endraw %}
-{% endhighlight %}
+1D-CNN 모델 이용
 
-...will come out looking like this:
+### 결과
 
-{% highlight javascript %}
-function demo(string, times) {
-  for (var i = 0; i < times; i++) {
-    console.log(string);
-  }
-}
-demo("hello, world!", 10);
-{% endhighlight %}
-
-Syntax highlighting is done using [highlight.js][highlight]. You can change the active theme in [head.html](https://github.com/bencentra/centrarium/blob/2dcd73d09e104c3798202b0e14c1db9fa6e77bc7/_includes/head.html#L15).
-
-### Images
-
-Lightbox has been enabled for images. To create the link that'll launch the lightbox, add <code>data-lightbox</code> and <code>data-title</code> attributes to an <code>&lt;a&gt;</code> tag around your <code>&lt;img&gt;</code> tag. The result is:
-
-<a href="//bencentra.com/assets/images/falcon9_large.jpg" data-lightbox="falcon9-large" data-title="Check out the Falcon 9 from SpaceX">
-  <img src="//bencentra.com/assets/images/falcon9_small.jpg" title="Check out the Falcon 9 from SpaceX">
-</a>
-
-For more information, check out the [Lightbox][lightbox] website.
-
-Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll’s dedicated Help repository][jekyll-help].
-
-[jekyll]:      http://jekyllrb.com
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-help]: https://github.com/jekyll/jekyll-help
-[highlight]:   https://highlightjs.org/
-[lightbox]:    http://lokeshdhakar.com/projects/lightbox2/
-[jekyll-archive]: https://github.com/jekyll/jekyll-archives
-[liquid]: https://github.com/Shopify/liquid/wiki/Liquid-for-Designers
+Accuracy: 0.81
+f1 score: 0.78

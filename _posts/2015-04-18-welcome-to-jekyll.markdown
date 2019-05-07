@@ -1,15 +1,5 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
-date:   2015-04-18 08:43:59
-author: Ben Centra
-categories: Jekyll
-tags:	jekyll welcome
-cover:  "/assets/instacode.png"
----
-
----
-layout: post
 title:  "신호 관련 데이터 분석"
 date:   2019-05-07 16:05:59
 author: ivoryRabbit

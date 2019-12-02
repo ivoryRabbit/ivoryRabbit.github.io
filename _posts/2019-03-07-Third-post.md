@@ -19,10 +19,10 @@ Discrete Geometry는 많은 사람들, 특히 수학자들에게도 생소한 �
 논문의 내용은 Hadwiger-Debrunner의 (p,q)-problem입니다. 굉장히 조합적으로 기술된(combinatorial statement) 이 문제는 arbitrary dimensional Euclidean space에서 Alon과 Kleitman에 의해 1992년에 증명되어 이제는 (p,q)-theorem으로 불리게 되었습니다.
 
 문제가 조합적으로 기술된 것에 비해, 증명은 Euclidean space의 다양한 성질을 사용하게 됩니다.
-- Dimension (or linear independence)
-- Lexicographic ordering(or dictionary ordering)
+- Linear independence (dimension)
+- Lexicographic order
 
-제 연구 목표는 dimension을 Radon number라고 불리는 불변량(invariant)로 대체하고 lexicographic ordering을 사용하지 않은, purely combinatorial proof를 찾는 것이었습니다.
+제 연구 목표는 dimension을 Radon number라고 불리는 불변량(invariant)로 대체하면서 동시에 lexicographic order을 사용하지 않은, purely combinatorial proof를 찾는 것이었습니다.
 
 결과적으로 (p,q)-problem의 중간단계인 'colorful Helly theorem'을 ['Radon number'][Radon]와 ['Stirling number of the second kind'][Stirling]를 이용하여 증명하는데 성공하였고, 다른 연구 결과들과 함께 (p,q)-theorem까지 도달할 수 있었습니다.
 

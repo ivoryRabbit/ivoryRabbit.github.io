@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Hello, surffers!"
+title:  "Hello, world!"
 date:   2019-02-19 21:47:45 + 0000
 categories: 일상
 author: ivoryRabbit
@@ -12,7 +12,7 @@ tags: blog
 처음으로 깃허브를 이용하여 블로그를 만들었습니다.
  
 How are you these days?  
-This is my first blog formed by github.
+This is my first blog written by github.
 
 * * *
 ### Python 테스트

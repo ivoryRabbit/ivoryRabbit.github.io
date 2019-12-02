@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "NIMS 산업수학 "
+title:  "NIMS 산업수학"
 date:   2019-02-24 15:38:45 + 0000
 categories: 개발
 comments: true
@@ -12,7 +12,7 @@ tag: NIMS
 깃허브를 통해 두번째로 만나뵙게 되었습니다.
  
 제 4회 NIMS 산업수학 아카데미에 참석하여  
-산업수학 문제해결에 필요한 데이터 분석을 공부하고 있네요.
+산업수학 문제해결에 필요한 데이터 분석을 공부하고 있습니다.
  
 개발환경은 Python - Jupyter Lab이며,  
 문제해결 및 데이터 분석에 사용할 모듈들을 conda 가상환경에 설치하였습니다.
@@ -57,7 +57,7 @@ net user administrator /active:yes
 
 <img src="https://github.com/ivoryRabbit/ivoryRabbit.github.io/blob/master/assets/20190224/%EC%82%AC%EC%A7%846.png?raw=true" width="1080" >
 
-5. administrator를 비활성화시키고 싶다면 yes -> no로 바꾸어줍니다. 이렇게요.
+5. administrator를 비활성화시키고 싶다면 yes -> no로 바꾸어줍니다.
 ```
 net user administrator /active:no
 ```
@@ -76,7 +76,7 @@ __Reference__
 
 * * *
 
-I am attending to [제 4회 NIMS 산업수학 아카데미][NIMS].
+[제 4회 NIMS 산업수학 아카데미][NIMS] 참석
 
 [NIMS]: https://www.nims.re.kr/scholarship/post/seminar/33128
 

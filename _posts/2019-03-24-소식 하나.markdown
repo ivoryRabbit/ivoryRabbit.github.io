@@ -12,3 +12,6 @@ comments : true
 개인적으로 저널에 논문을 출판한 것보다 논문으로만 접해왔던 대수학자에게 언급된 것이 더 기쁩니다.
 
 {% if site.disqus-shortname %}{% include disqus.html %}{% endif %}
+    
+
+-민송 수정-

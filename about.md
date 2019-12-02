@@ -12,8 +12,9 @@ permalink: /about/
 ### Interested in
 - Descrete Geometry
 - Data Analysis
-- Vocal
+- Recommandation System
+- Music
 
 ### Research & Experience
 - Radon Numbers and the Fractional Helly Theorem(2019++)
-- Data Analysis
+- Data Analysis(2019 ~ )

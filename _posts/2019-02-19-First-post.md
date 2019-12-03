@@ -41,8 +41,8 @@ def print_your_name():
 ```
 * * *
 
-
 ### Table 테스트
+<div class="highlighter-rouge"><pre class="highlight">`
 | 언어 | 세부내용(패키지) | 용도 |
 |---|:---:|---:|
 | `Python` | numpy / scipy / scikit-learn / tensorflow / keras | 머신러닝 |

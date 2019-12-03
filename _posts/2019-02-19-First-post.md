@@ -41,6 +41,18 @@ def print_your_name():
 ```
 * * *
 
+
+### Table 테스트
+언어 | 세부내용(패키지) | 용도
+---|:---:|---:
+`Python` | numpy / scipy / scikit-learn / tensorflow / keras | `machine learning`
+`R` | stringr / tidyr / **dplyr** / ggplot2 / survival | `전처리 및 시각화`
+`SQL` | **_오라클_** 사용 |
+`LaTex` | **overleaf**로 클라우드 작성 | `문서 작성`
+
+
+* * *
+
 ### Latex 테스트
 
 __Log Loss(or cross-entropy)__

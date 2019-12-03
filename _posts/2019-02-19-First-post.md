@@ -49,7 +49,7 @@ def print_your_name():
 | `R` | stringr / tidyr / **dplyr** / ggplot2 / survival | 전처리 및 시각화 |
 | `SQL` | **_오라클_** 사용중 ||
 | `LaTex` | **Overleaf.com**에서 온라인 작성 | 문서 작성 |
-
+`
 
 * * *
 

@@ -42,7 +42,6 @@ def print_your_name():
 * * *
 
 ### Table 테스트
-
 | 언어 | 세부내용(패키지) | 용도 |
 |---|:---:|---:|
 | `Python` | numpy / scipy / scikit-learn / tensorflow / keras | 머신러닝 |
@@ -52,7 +51,6 @@ def print_your_name():
 
 
 * * *
-
 ### Latex 테스트
 
 __Log Loss(or cross-entropy)__

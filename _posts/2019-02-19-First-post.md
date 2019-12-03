@@ -46,7 +46,7 @@ def print_your_name():
 __Log Loss(or cross-entropy)__
 
 $$
-L(w) = -\frac{1}{n}\sum_{i=1}^{N}a_{i}\log p_{i}(w)
+L(w) = -\frac{1}{N}\sum_{i=1}^{N}a_{i}\log p_{i}(w)
 $$
 
 * * *

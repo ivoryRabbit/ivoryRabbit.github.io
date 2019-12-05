@@ -47,10 +47,10 @@ def print_your_name():
 
 언어 | 세부내용(패키지) | 용도
 :-- | :-- | --:
- `Python` | numpy / scipy / scikit-learn / tensorflow / keras | 머신러닝
- `R` | stringr / tidyr / **dplyr** / ggplot2 / survival | 전처리 및 시각화
- `SQL` | **_오라클_** | 
- `LaTex` | **Overleaf.com** | 문서 작성
+`Python` | numpy / scipy / scikit-learn / tensorflow / keras | 머신러닝
+`R` | stringr / tidyr / **dplyr** / ggplot2 / survival | 전처리 및 시각화
+`SQL` | **_오라클_** | 
+`LaTex` | **Overleaf.com** | 문서 작성
 
 
 * * *

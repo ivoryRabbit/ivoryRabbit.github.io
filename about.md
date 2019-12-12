@@ -11,8 +11,10 @@ permalink: /about/
 
 ### Interested in
 - Descrete Geometry
+- Graph Theory
 - Data Analysis
 - Recommandation System
+- Graph Convolutional Network
 - Music
 
 ### Research & Experience

@@ -5,7 +5,7 @@ date:   2019-02-19 21:47:45 + 0000
 categories: 일상
 author: ivoryRabbit
 comments: true
-tags: - blog
+tags: blog
 ---
 
 안녕하세요?  

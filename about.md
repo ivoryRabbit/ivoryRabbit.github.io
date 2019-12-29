@@ -6,17 +6,32 @@ permalink: /about/
 
 <img src="{{ site.baseurl }}/assets/profile.jpg" title="Profile Picture" class="profile">
 
-### Department of
-- Mathematical Sciences
+## My Favorites
+- Enjoying the internet with a delicious coffee
+- Linkin Park
+- Mathematics
 
-### Interested in
+## Interested in
 - Descrete Geometry
 - Graph Theory
 - Data Analysis
 - Recommandation System
 - Graph Convolutional Network
-- Music
+- Indie Music
+- Rock
+- Make easy to understand
 
-### Research & Experience
+## Department of
+- Mathematical Sciences
+
+## Research & Experience
 - Radon Numbers and the Fractional Helly Theorem(2019++)
-- Data Analysis(2019 ~ )
+- Data Analysis(2018 ~ )
+- Korean Combat Training Center(2019 ~ 2021)
+
+## Programming languages
+- Python
+- R
+- Oracle
+- Latex
+- a little bit of (Maple, Matlab, Sage, Java)...

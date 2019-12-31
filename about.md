@@ -14,7 +14,7 @@ permalink: /about/
 ## Interested in
 - Descrete Geometry
 - Graph Theory
-- Data Analysis
+- Data Science
 - Recommandation System
 - Graph Convolutional Network
 - Indie Music
@@ -26,10 +26,11 @@ permalink: /about/
 
 ## Research & Experience
 - Radon Numbers and the Fractional Helly Theorem(2019++)
-- Data Analysis(2018 ~ )
+- Mathematics(2012 ~ )
+- Data Science(2019 ~ )
 - Korean Combat Training Center(2019 ~ 2021)
 
-## Programming languages
+## Programming Languages
 - Python
 - R
 - Oracle

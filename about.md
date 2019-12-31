@@ -7,7 +7,7 @@ permalink: /about/
 <img src="{{ site.baseurl }}/assets/profile.jpg" title="Profile Picture" class="profile">
 
 ## My Favorites
-- Enjoying the internet with a delicious coffee
+- Enjoy the internet with a delicious coffee
 - Linkin Park
 - Mathematics
 

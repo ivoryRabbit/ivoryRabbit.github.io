@@ -65,14 +65,5 @@ L(w) = -\frac{1}{N}\sum_{i=1}^{N}a_{i}\log p_{i}(w)
 $$
 
 * * *
-## Mermaid
-
-```mermaid
-graph TD
-  1-->2
-  2-->3
-  3-->1
-  3-->4
-```
 
 {% if site.disqus-shortname %}{% include disqus.html %}{% endif %}

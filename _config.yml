@@ -11,6 +11,7 @@ exclude:
 
 # Site settings
 title: ivoryRabbit's STORY
+title-separator: "'s "
 subtitle: "-의식의 흐름대로-"
 email: tsi00008@gmail.com
 name: ivoryRabbit

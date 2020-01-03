@@ -48,9 +48,9 @@ def print_your_name():
 언어 | 세부내용(패키지) | 용도
 :-- | :-- | --:
 `Python` | numpy / scipy / scikit-learn / tensorflow / keras | 머신러닝
-`R` | stringr / tidyr / **dplyr** / ggplot2 / survival | 전처리 및 시각화
-`SQL` | **_오라클_** | 
-`LaTex` | **Overleaf.com** | 문서 작성
+`R` | stringr / tidyr / dplyr / ggplot2 / survival | 전처리 및 시각화
+`SQL` | **오라클** | 
+`LaTex` | _overleaf.com_ | 문서 작성
 
 
 * * *
@@ -68,11 +68,11 @@ $$
 ## Mermaid
 
 ```mermaid
-graph TD;
-  1-->2;
-  2-->3;
-  3-->1;
-  3-->4;
+graph TD
+  1-->2
+  2-->3
+  3-->1
+  3-->4
 ```
 
 {% if site.disqus-shortname %}{% include disqus.html %}{% endif %}

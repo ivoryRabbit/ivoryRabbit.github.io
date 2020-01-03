@@ -68,11 +68,11 @@ $$
 ## Mermaid
 
 ```mermaid
-graph LR
-  1-->2
-  2-->3
-  3-->1
-  3-->4
+graph TD;
+  1-->2;
+  2-->3;
+  3-->1;
+  3-->4;
 ```
 
 {% if site.disqus-shortname %}{% include disqus.html %}{% endif %}

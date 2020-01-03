@@ -9,10 +9,6 @@ gems:
 exclude:
   - "/vendor/"
 
-mermaid:
-  src: '/js/mermaid.js'
-  src_config: '/js/mermaid_config.js'
-  
 # Site settings
 title: ivoryRabbit's STORY
 subtitle: "-의식의 흐름대로-"

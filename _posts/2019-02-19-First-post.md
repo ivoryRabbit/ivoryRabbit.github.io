@@ -49,8 +49,8 @@ def print_your_name():
 :-- | :-- | --:
 `Python` | numpy / scipy / scikit-learn / tensorflow / keras | 머신러닝
 `R` | stringr / tidyr / dplyr / ggplot2 / survival | 전처리 및 시각화
-`SQL` | **오라클** | 
-`LaTex` | _overleaf.com_ | 문서 작성
+`SQL` | _오라클_ | 
+`LaTex` | **overleaf.com** | 문서 작성
 
 
 * * *

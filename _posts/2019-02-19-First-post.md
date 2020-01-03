@@ -15,7 +15,7 @@ How are you these days?
 This is my first blog written by github.
 
 * * *
-### Python 테스트
+## Python 테스트
 
 {% highlight python %}
 def print_hi(name):
@@ -43,7 +43,7 @@ def print_your_name():
 * * *
 
 
-### Table 테스트
+## Table 테스트
 
 언어 | 세부내용(패키지) | 용도
 :-- | :-- | --:
@@ -54,7 +54,7 @@ def print_your_name():
 
 
 * * *
-### Latex 테스트
+## Latex 테스트
 
 __Log Loss(or cross-entropy)__
 
@@ -65,5 +65,14 @@ L(w) = -\frac{1}{N}\sum_{i=1}^{N}a_{i}\log p_{i}(w)
 $$
 
 * * *
+## Mermaid
+
+```mermaid
+graph LR
+  1-->2
+  2-->3
+  3-->1
+  3-->4
+```
 
 {% if site.disqus-shortname %}{% include disqus.html %}{% endif %}

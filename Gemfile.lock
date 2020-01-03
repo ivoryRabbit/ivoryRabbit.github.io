@@ -47,6 +47,7 @@ DEPENDENCIES
   jekyll-archives
   jekyll-paginate
   jekyll-sitemap
+  jekyll-mermaid
 
 BUNDLED WITH
    1.12.5

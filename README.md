@@ -2,12 +2,12 @@
 
 ## history
 
-Mar 21, 2019 - repo 개설
-Apr 12, 2019 - About Me 업데이트
-May 07, 2019 - 로고 추가, 상단 메뉴 고정
-Jan 03, 2020 - Latex inline 이슈 해결
-Jan 03, 2020 ~ Gemfile 설치 안됌...
-Jam 11, 2020 ~ Python notebook 및 R markdown 자료 업로드 시도 중
+- Mar 21, 2019 - repo 개설
+- Apr 12, 2019 - About Me 업데이트
+- May 07, 2019 - 로고 추가, 상단 메뉴 고정
+- Jan 03, 2020 - Latex inline 이슈 해결
+- Jan 03, 2020 ~ Gemfile 설치 안됌...
+- Jam 11, 2020 ~ Python notebook 및 R markdown 자료 업로드 시도 중
 
 ## --------------------(작성 중)--------------------
 

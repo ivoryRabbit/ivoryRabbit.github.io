@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "tidyverse and pandas"
+title: "Tidyverse and Pandas"
 date: 2020-01-15 23:05:59
 author: ivoryRabbit
 categories: 개발
@@ -8,7 +8,7 @@ comments: true
 tag: 파이프연산자
 ---
 
-## tidyverse
+## Tidyverse
 
 R **tidyverse** 라이브러리를 사용하면서 파이프연산자(%>%)를 이용하는 것이 많은 장점을 갖고 있다는 것을 느꼈다. 코드가 직관적이고 보기 좋을뿐만아니라, 하나의 코드블럭만으로 데이터 핸들링부터 시각화가 가능하기 때문에 불필요하게 많은 변수들을 생성할 필요가 없었기 때문이다. 
 

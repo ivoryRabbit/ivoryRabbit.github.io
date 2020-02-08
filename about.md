@@ -7,9 +7,9 @@ permalink: /about/
 <img src="{{ site.baseurl }}/assets/profile.jpg" title="Profile Picture" class="profile">
 
 ## My Favorites
-- Coffee
 - Linkin Park
 - Mathematics
+- Cat
 
 ## Interested in
 - Descrete Geometry

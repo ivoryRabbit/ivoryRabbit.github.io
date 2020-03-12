@@ -9,9 +9,6 @@
 - Jam 11, 2020 ~ Python notebook 및 R markdown 자료 업로드 시도 중
 - Feb 03, 2020 - Latex mathjax 버그 발견 - set symbol \\{ \\} 적용이 안됨
 
-## --------------------(작성 중)--------------------
-
-
 ## License
 
 MIT. See [LICENSE.MD](https://github.com/bencentra/centrarium/blob/master/LICENSE.md).

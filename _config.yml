@@ -1,33 +1,28 @@
-# External gems
-# See http://ixti.net/software/2013/01/28/using-jekyll-plugins-on-github-pages.html for making `jekyll archives` work.
+# Gems
 gems:
-  - jekyll-archives # Sorry, not GitHub pages friendly!
+  - jekyll-archives
   - jekyll-sitemap
   - jekyll-paginate
-  - jekyll-mermaid
 
 exclude:
   - "/vendor/"
 
 # Site settings
 title: ivoryRabbit's STORY
-title_separator: "'s "
 subtitle: "-온라인 노트북-"
 email: tsi00008@gmail.com
 name: ivoryRabbit
 description:
-  Powered by Github
-# Base URL of site (i.e. /blog). It should always start with a slash,
-# and never end with a slash. Set it to a blank value if hosting at the
-# root of your server.
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://ivoryRabbit.github.io" # the base hostname & protocol for your site
+  Rlog - Research Blog
+
+baseurl: ""
+url: "http://ivoryRabbit.github.io"
 cover: "/assets/yeosu.jpg"
 logo: "/assets/bunny.png"
 
 # Build settings
 markdown: kramdown
-paginate: 5
+paginate: 10
 paginate_path: "/page:num/"
 inter_post_navigation: false
 highlightjs_theme: "monokai-sublime"
@@ -57,28 +52,8 @@ descriptions:
     desc: "Just some placeholder posts, lorem ipsum and the rest."
 
 # Social icons and sharing options
-#
-# Social settings are used in two places:
-# * In the footer, as links to your personal profiles
-# * After each blog post for sharing widgets
-#
-# Example:
-#
-# social:
-#   - name: Twitter                         # Name of the service
-#     icon: twitter                         # Font Awesome icon to use (minus fa- prefix)
-#     username: "@TheBenCentra"             # (User) Name to display in the footer link
-#     url: https://twitter.com/TheBenCentra # URL of your profile (leave blank to not display in footer)
-#     desc: Follow me on Twitter            # Description to display as link title, etc
-#     share: true                           # Include in the "Share" section of posts
-social:
-  - name: Twitter
-    icon: twitter
-    username: ivoryRabbit
-    url: 
-    desc: Follow me on Twitter
-    share: false
 
+social:
   - name: Facebook
     icon: facebook
     username: Facebook
@@ -98,13 +73,6 @@ social:
     username: ivoryRabbit
     url: 
     desc: Connect with me on LinkedIn
-    share: false
-
-  - name: Google+
-    icon: google-plus
-    username:
-    url:
-    desc: Add me to your Circles
     share: false
 
   - name: YouTube
@@ -127,74 +95,3 @@ social:
     url:
     desc: Follow me on Pinterest
     share: false
-
-  - name: SoundCloud
-    icon: soundcloud
-    username:
-    url:
-    desc: Follow me on SoundCloud
-    share: false
-
-  - name: Tumblr
-    icon: tumblr
-    username:
-    url:
-    desc: Follow me on Tumblr
-    share: false
-
-  - name: Steam
-    icon: steam
-    username:
-    url:
-    desc: Friend me on Steam
-    share: false
-
-  - name: Dribbble
-    icon: dribbble
-    username:
-    url:
-    desc: Follow me on Dribble
-    share: false
-
-  - name: Vimeo
-    icon: vimeo-square
-    username:
-    url:
-    desc: Follow me on Vimeo
-    share: false
-
-  - name: Vine
-    icon: vine
-    username:
-    url:
-    desc: Follow me on Vine
-    share: false
-
-  - name: Reddit
-    icon: reddit
-    username:
-    url:
-    desc: Share to Reddit
-    share: false
-
-  - name: "Hacker News"
-    icon: hacker-news
-    username:
-    url:
-    desc: Share to Hacker News
-    share: false
-
-# Social sharing protocols
-# These are for automatically generating sharing metadata for FB and Twitter
-# OS Protocol is for sharing the source of your site, if you're interested. For more, see osprotocol.com
-# protocols:
-#     fb_image: "/assets/bunny.png"
-#     fb_image_width: 612
-#     fb_image_height: 605
-#     fb_image_type: "image/png"
-
-#     twitter_image: "/assets/bunny.png"
-
-#     os_repo: "https://github.com/bencentra/centrarium.com"
-#     os_rcs_type: "git"
-#     os_src: "git@github.com:bencentra/centrarium.com.git"

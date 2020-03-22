@@ -8,7 +8,7 @@
 - Jan 03, 2020 ~ Latex inline 이슈 해결
 - Jam 11, 2020 ~ Mathjax 수식 관련 z-index 
 - Feb 03, 2020 ~ Latex mathjax 버그 발견 - set symbol \\{ \\} 적용이 안됨
-- Mar 21, 2020 ~ description 작성 가능하게 
+- Mar 21, 2020 ~ description 작성 가능하게 수정
 
 ## License
 

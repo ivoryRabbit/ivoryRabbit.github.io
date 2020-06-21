@@ -7,9 +7,11 @@ permalink: /about/
 <img src="{{ site.baseurl }}/assets/profile.jpg" title="Profile Picture" class="profile">
 
 ## My Favorites
-- Linkin Park
+- Musicians
+  - Linkin Park
+  - Zitten
 - Mathematics
-- Cat
+- Cats
 
 ## Interested in
 - Descrete Geometry
@@ -18,8 +20,7 @@ permalink: /about/
 - Recommandation System
 - Graph Convolutional Network
 - Indie Music
-- Rock
-- Make easy to understand
+- Rock & Metal
 
 ## Department of
 - Mathematical Sciences
@@ -35,4 +36,4 @@ permalink: /about/
 - R
 - Oracle
 - Latex
-- a little bit of (Maple, Matlab, Sage, Java)...
+- a little bit of (Maple, Matlab, Sage, JS)...

@@ -8,30 +8,28 @@ permalink: /about/
 
 ## My Favorites
 - Musicians
+  - Jaurim
   - Linkin Park
   - Zitten
-- Mathematics
 - Cats
+  - CreamHeros
 
 ## Interested in
 - Descrete Geometry
 - Graph Theory
 - Data Science
 - Recommandation System
-- Graph Convolutional Network
-- Indie Music
-- Rock & Metal
+- Indie and Rock Music
 
 ## Department of
 - Mathematical Sciences
 
 ## Research & Experience
-- Radon Numbers and the Fractional Helly Theorem(2019++)
-- Mathematics(2012 ~ )
-- Data Science(2019 ~ )
+- Radon Numbers and the Fractional Helly Theorem(2019)
 - Korean Combat Training Center(2019 ~ 2021)
+- Various Data Competitions suck like Kaggle
 
-## Programming Languages
+## Available Programming Languages
 - Python
 - R
 - Oracle

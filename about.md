@@ -30,4 +30,4 @@ permalink: /about/
 - Python
 - R
 - Oracle
-- Latek
+- Latex

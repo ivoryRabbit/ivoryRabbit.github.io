@@ -57,7 +57,7 @@ social:
   - name: Facebook
     icon: facebook
     username: Facebook
-    url: https://www.facebook.com/
+    url:
     desc: Friend me on Facebook
     share: false
 

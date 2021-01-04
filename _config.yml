@@ -17,7 +17,7 @@ description:
 
 baseurl: ""
 url: "http://ivoryRabbit.github.io"
-cover: "/assets/coffe.jpg"
+cover: "/assets/coffee.jpg"
 logo: "/assets/bunny.png"
 
 # Build settings

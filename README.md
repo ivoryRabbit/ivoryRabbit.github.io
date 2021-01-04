@@ -9,7 +9,7 @@
 - Jam 11, 2020 ~ Mathjax 수식 관련 z-index 
 - Feb 03, 2020 ~ Latex mathjax 버그 발견 - set symbol (\\{, \\}) 적용이 안됨
 - Mar 21, 2020 ~ description 작성 가능하게 수정
-- Jan 01, 2021 ~ Mathjax 박살난 거 수정[참고](https://eeeuns.github.io/2020/12/10/githubblog/)
+- Jan 01, 2021 ~ Mathjax 박살난 거 수정[[참고]](https://eeeuns.github.io/2020/12/10/githubblog/)
 
 ## License
 

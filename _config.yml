@@ -8,8 +8,8 @@ exclude:
   - "/vendor/"
 
 # Site settings
-title: 블로그 제목
-subtitle: "블로그 소제목"
+title: 추천시스템 논문 리뷰
+subtitle: Technical Writing Blog
 email: tsi00008@gmail.com
 name: ivoryRabbit
 description:

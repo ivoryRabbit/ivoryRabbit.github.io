@@ -7,6 +7,9 @@ gems:
 exclude:
   - "/vendor/"
 
+plugins:
+  - jekyll-katex
+
 # Site settings
 title: 추천시스템 논문 리뷰
 subtitle: Technical Blog

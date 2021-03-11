@@ -7,6 +7,12 @@
     font-weight: normal;
     font-style: normal;
 }
+@font-face {
+    font-family: 'ghanachoco';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@1.0/ghanachoco.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
 
 // system typefaces
 $serif: Georgia, Times, serif !default;
@@ -16,10 +22,10 @@ $monospace: Monaco, Consolas, "Lucida Console", monospace !default;
 
 // Typography
 $base-font-family: "RIDIBatang", sans-serif; // $helvetica;
-$heading-font-family: "RIDIBatang", sans-serif; // $base-font-family;
+$heading-font-family: "ghanachoco", sans-serif; // $base-font-family;
 
 // Font Sizes
-$base-font-size: $em-base; // 18px
+$base-font-size: $em-base; // 20px
 
 // Adjust modular scale ratio
 $modular-scale-ratio: $minor-third;
